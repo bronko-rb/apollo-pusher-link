@@ -1,0 +1,25 @@
+{
+  "name": "apollo-pusher-link",
+  "keywords": ["apollo", "pusher"],
+  "version": "0.1",
+  "author": "yura m",
+  "description": "pusher link for apollo client",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build" : "tsc",
+    "prepare" : "npm run build"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "@apollo/client": "^3.6.9",
+    "pusher-js": "^7.3.0"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bronko-rb/apollo-pusher-link"
+  },
+  "files": ["lib/**/*"]
+}
