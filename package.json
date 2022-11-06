@@ -1,7 +1,7 @@
 {
   "name": "apollo-pusher-link",
   "keywords": ["apollo", "pusher"],
-  "version": "0.1",
+  "version": "0.1.0",
   "author": "yura m",
   "description": "pusher link for apollo client",
   "main": "lib/index.js",
